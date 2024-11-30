@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Altschool application form replica</title>
+  </head>
+  <body>
+    <!--Form-->
+    <form action="submit" method="post">
+      <header>
+        <a id="topofform"></a>
+        <h2>Signup</h2>
+        <h3>Take the next steps to apply at Altschool Africa</h3>
+      </header>
+
+      <Main>  
+      <section>
+        <label> First name</label>
+        <br />
+        <input type="text" placeholder="Enter first name" required />
+        <br />
+        <label> Last name</label>
+        <br />
+        <input type="text" placeholder="Enter Last name" required />
+        <br />
+      </section>
+      
+      <section>
+        <label> Select gender</label>
+        <br />
+        <select name="gender" id="gender" required>
+          <option disabled selected>Select your gender</option>
+          <option>male</option>
+          <option>female</option>
+        </select>
+        <br />
+        <label>Date of birth</label>
+        <br />
+        <input type="date" required />
+      </section>
+
+      <section>
+        <label>Email Address</label>
+        <br />
+        <input type="email" required />
+        <br />
+        <label>Phone Number</label>
+        <br />
+        <input type="tel" placeholder="08012-345-6789" pattern="[0-9]{5}-[0-9]{3}-[0-9]{4}" required/>
+      </section>
+
+      <section>
+        <label>Select your country</label>
+        <br />
+        <select name="Select your country">
+          Select your country
+
+          <option disabled selected>Select your country</option>
+          <option>Nigeria</option>
+          <option>USA</option>
+          <option>England</option>
+          <option>Spain</option>
+          <option>Ghana</option>
+          <option>Others</option>
+        </select>
+        <br />
+        <label> State/City of Residence</label>
+        <br />
+        <input
+          type="text"
+          ,
+          placeholder="Enter State/City of Residence"
+          required
+        />
+      </section>
+     
+      <section>
+        <label>How did you hear about us</label>
+        <br />
+        <input type="text" />
+      </section>
+      
+      <section>
+        <label>Enter Password</label>
+        <br />
+        <input type="password" placeholder="Enter password" required />
+        <br />
+        <label>Confirm password</label>
+        <br />
+        <input type="password" placeholder="Confirm password" required />
+        <br />
+      </section>
+      
+    </form>
+    <br>
+
+    <section>
+      <label for="terms">
+        <input type="checkbox" id="terms" required /> I agree to the Terms and
+        Conditions
+      </label>
+      <br />
+      <label for="promos">
+        <input type="checkbox" id="promos" /> I want to receive promotional
+        emails
+      </label>
+    </section>
+    <br />
+      <button type="submit">Signup</button>
+    </Main>
+
+    <footer>
+      <p>&copy; 2024 Kehinde Ibrahim</p>
+      <a href="#topofform">Back to Top</a>
+
+      <a href="./index.html">Home</a>
+
+      <address>
+        <a href="kehindeibrahim118@gmail.com">kehindeibrahim118@gmail.com</a>
+        <br />
+        <p>Lagos, Nigeria.</p>
+      </address>
+    </footer>
+  </body>
+</html>
